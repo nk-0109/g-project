@@ -1,0 +1,175 @@
+/* Mock Lab Practical */
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: mediumseagreen;
+    padding: 10px;
+}
+
+.container {
+    position: relative;
+    width: 900px;
+    height: 750px;
+    margin: 0 auto;
+    background-color: white;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 5px 5px 10px #ccc;
+    overflow: hidden;
+}
+
+.info {
+    margin-bottom: 20px;
+    padding: 10px;
+    background-color:  rgb(102, 239, 164);
+    border-radius: 8px;
+    font-size: 0.95em;
+    height: 60px;
+}
+
+h1 {
+    text-align: center;
+    color: white;
+    text-decoration: underline;
+}
+
+/* Input section floated left */
+.input-section {
+    width: 80%;
+    padding: 40px;
+    margin: 15px auto;
+}
+
+.input-section label {
+    display: block;
+    margin-top: 15px;
+    margin-bottom: 5px;
+    font-weight: bold;
+}
+
+.input-section input[type="text"] {
+    width: 95%;
+    padding: 8px;
+    margin-bottom: 5px;
+}
+
+#feedback {
+    background-color: rgb(231, 231, 231);
+    border-radius: 5px;
+    font-size: 0.9em;
+    margin-top: 10px;
+    padding: 5px;
+    height: 40px;  
+    color: rgb(157, 155, 155);
+    text-align: center;  /* Horizontal centering */
+    border-bottom: 2px solid mediumseagreen;
+}
+
+
+/* Thumbnail layout */
+.avatars {
+    margin: 15px 0;
+    height: 300px;
+
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.images {
+
+
+}
+
+.person {
+    border-radius: 10px;
+    margin: 20px 30px;
+    border: 1px solid green;
+    width: 250px;
+    height: 250px;
+    cursor: pointer;
+}
+
+.person:hover {
+    height: 260px;
+    width: 260px;
+}
+
+.selected {
+    border: 2px solid green;
+    box-shadow: 3px 3px 5px green;
+}
+
+
+/* Buttons floated to the right */
+#confirmSelection {
+    padding: 8px 12px;
+    cursor: pointer;
+    float: right;
+    margin-left: 10px;
+    border: 1px solid rgb(216, 245, 255);
+    box-shadow: 3px 3px 4px rgb(2, 144, 80);
+    background-color: rgb(231, 231, 231);
+    border-radius: 5px;
+    font-size: 15px;
+}
+
+
+/*
+
+.summary-card {
+    float: right;
+    width: 40%;
+    border-left: 2px solid #ddd;
+    padding-left: 20px;
+}
+
+.summary-card h1 {
+    text-align: center;
+}
+
+.selected-duck-container {
+    width: 120px;
+    height: 120px;
+    margin: 20px auto;
+    border: 2px solid #999;
+    border-radius: 10px;
+    background-color: #fff;
+    overflow: hidden;
+    text-align: center;
+}
+
+.selected-duck-container img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+#finalNickname {
+    padding: 8px;
+    width: 80%;
+    margin: 0 auto;
+    display: block;
+    text-align: center;
+}
+*/
+.profile {
+    margin: auto;
+    border: 1px solid black;
+}
+
+#profileImage {
+    border: 1px solid mediumseagreen;
+    box-shadow: 8px 8px 9px mediumseagreen;
+    border-radius: 15px;
+    display: block;
+    margin:  30px auto;
+}
+
+.congrats {
+    color: mediumseagreen;
+}
+
+#degree, #name {
+    text-decoration: none;
+}

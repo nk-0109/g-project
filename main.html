@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Grad</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <main class="container">
+        <div class="info">
+            <h1>Student Info</h1>
+        </div>
+        <hr>
+
+        <section class="input-section">
+            <label for="firstName">First Name</label>
+            <input type="text" id="firstName" placeholder="Enter your first name">
+
+            <label for="lastName">Last Name</label>
+            <input type="text" id="lastName" placeholder="Enter your last name">
+            <div id="feedback">
+                <p>Name should not contain numbers</p>
+            </div>
+           
+   
+
+            <div class="avatars">
+                <div class="images">
+                    <img src="Cartoonify-21.png" class="person" id="person1">
+                    <img src="Cartoonify-5.png" class="person" id="person2">
+                </div>
+            </div>
+
+            <button id="confirmSelection">Graduate</button>
+        </section>
+
+        <!--
+        <section class="summary-card">
+            <h1>Summary card</h1>
+            <div class="selected-duck-container">
+                <img id="selectedDuck" class="selected-duck" src="duck.jpg" alt="Selected Duck">
+            </div>
+            <input type="text" id="fullName" readonly placeholder="full name">
+        </section>
+        -->
+    </main>
+    <script src="main.js"></script>
+</body>
+</html>
